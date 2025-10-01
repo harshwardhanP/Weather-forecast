@@ -6,6 +6,7 @@ import Button from "./components/Button";
 import { useWeather } from "./context/Weather";
 import "./App.css";
 
+//we created function App
 function App() {
   const weather = useWeather();
   console.log(weather);
